@@ -11,7 +11,7 @@ Javascript
 - Contact form with social links
 
 ## 🚀 Live Site  
-[Visit My Portfolio](https://github.com/shruti-kesarwani/CodeAlpha_portfolio)
+[Visit My Portfolio](https://shruti-kesarwani.github.io/CodeAlpha_portfolio)
 
 ##Connect with me
 🔗 [LinkedIn](https://linkedin.com/in/your-profile](https://www.linkedin.com/in/shruti-kesarwani-66550824a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
