@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shruti | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  
+  <!-- Other head content -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body data-theme="dark"
+  <nav class="nav">
+    <div class="wrap">
+      <div class="brand">Shruti<span>.</span>Portfolio</div>
+      <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle">Dark/Light</button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div>
+      <h1>Frontend Developer, DSA Enthusiast, and Problem Solver</h1>
+      <p>Building clean solutions with clarity and impact.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn" href="#contact">Get in Touch</a>
+      </div>
+    </div>
+    <div class="avatar">
+  <img src="images/port.png" alt="Shruti Logo">
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>Professional Summary</h2>
+    <p class="sub">Enthusiastic, Task-oriented and Meticulous</p>
+    <div class="divider"></div>
+    <div class="about-grid">
+      <div class="card">
+        <h3>About me</h3>
+        <p>I’m Shruti Kesarwani— a focused frontend developer, DSA enthusiast, and MCA student passionate about creating intuitive and responsive web experiences.</p>
+      </div>
+      <div class="card">
+        <h3>Current Focus</h3>
+        <p>Documenting DSA while building useful projects, responsive,user-friendly interfaces with clean and efficient code.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p class="sub">A few highlights.</p>
+    <div class="divider"></div>
+
+    <div class="projects">
+      <article class="project">
+        <div>
+          <h3>Calc App</h3>
+          <p>Interactive calculator with advanced features.</p>
+          <div class="tags"><span class="tag">Android Studio</span><span class="tag">Java Core</span></div>
+        </div>
+      </article>
+
+      
+
+      <article class="project">
+        <div>
+          <h3>Play Music</h3>
+          <p>Music player app with playlist management.</p>
+          <div class="tags"><span class="tag">Android Studio</span><span class="tag">Java Core</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <p class="sub">Technologies and topics.</p>
+    <div class="divider"></div>
+    <div class="skills-grid">
+      <div class="card">
+        <h3>Technical Skills</h3>
+        <div class="skill">
+          <label><span>Java</span><span>80%</span></label>
+          <div class="bar"><div class="fill" style="--w:80%"></div></div>
+        </div>
+        <div class="skill">
+          <label><span>JavaScript</span><span>80%</span></label>
+          <div class="bar"><div class="fill" style="--w:80%"></div></div>
+        </div>
+        <div class="skill">
+          <label><span>html & css</span><span>85%</span></label>
+          <div class="bar"><div class="fill" style="--w:85%"></div></div>
+        </div>
+       
+      </div>
+      <div class="card">
+        <h3>Soft Skills</h3>
+        <div class="skill">
+          <label><span>Problem Solving</span><span>90%</span></label>
+          <div class="bar"><div class="fill" style="--w:90%"></div></div>
+        </div>
+        <div class="skill">
+          <label><span>Attention to details</span><span>80%</span></label>
+          <div class="bar"><div class="fill" style="--w:80%"></div></div>
+        </div>
+        <div class="skill">
+          <label><span>Communication</span><span>90%</span></label>
+          <div class="bar"><div class="fill" style="--w:90%"></div></div>
+        </div>
+        <div class="skill">
+          <label><span>Time Management</span><span>90%</span></label>
+          <div class="bar"><div class="fill" style="--w:90%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p class="sub">Let’s build something useful.</p>
+    <div class="divider"></div>
+
+    <div class="contact-grid">
+      <form id="contactForm" novalidate>
+        <div class="row">
+          <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+        </div>
+        <div style="margin-top:0.8rem">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div style="margin-top:0.8rem; display:flex; gap:0.6rem">
+          <button class="btn primary" type="submit">Send</button>
+          <button class="btn" type="reset">Reset</button>
+        </div>
+        <div id="formMsg" class="msg"></div>
+      </form>
+
+      <div class="contact-card">
+        <h3>Connect</h3>
+        <ul class="contact-list">
+          <li><i class="fas fa-map-marker-alt"></i> Allahabad, UP, India</li>
+          <li><i class="fas fa-phone"></i> +91 84708xxxxx</li>
+          <li><div class="connect">
+  <a href="https://www.linkedin.com/in/shruti-kesarwani-66550824a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+    <i class="fab fa-linkedin"></i>
+  </a>
+              
+  <a href="https://github.com/shruti-kesarwani" target="_blank">
+    <i class="fab fa-github"></i>
+  </a>
+</div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> . All rights reserved
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
