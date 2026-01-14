@@ -10,7 +10,7 @@ Javascript
 - Project showcase section
 - Contact form with social links
 
-## 🚀 Live Site  
+# 🚀 Live Site  
 [Visit My Portfolio](https://shruti-kesarwani.github.io/CodeAlpha_portfolio)
 
 ##Connect with me
